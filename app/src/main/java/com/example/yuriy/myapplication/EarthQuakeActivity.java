@@ -56,10 +56,9 @@ public class EarthQuakeActivity extends AppCompatActivity implements LoaderManag
         earthQuakeListView = findViewById(R.id.list_view);
         earthQuakeListView.setVisibility(View.INVISIBLE);
         emptyView = findViewById(R.id.emptyView);
-//
+
 
         Toast.makeText(this, BASE_REQUEST_URL, Toast.LENGTH_SHORT).show();
-//        new EarthQuakeAsyncTask().execute(REQUEST_STRING);
         if (hasInternetConnectivity()) {
             getSupportLoaderManager().initLoader(1, null, this);
         } else {

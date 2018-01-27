@@ -50,7 +50,6 @@ public class EarthquakeListAdapter extends ArrayAdapter<EarthQuake> {
 
         TextView cityTV = listItemView.findViewById(R.id.city);
         TextView proximityCoordinatesTV = listItemView.findViewById(R.id.proximity_coordinates);
-//        cityTV.setText(String.valueOf(currentEarthQuakeObject.getCity()));
 
         String rawLocation = currentEarthQuakeObject.getCity();
         LocationSeparator separator = new LocationSeparator(rawLocation);

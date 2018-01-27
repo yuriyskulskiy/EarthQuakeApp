@@ -5,7 +5,6 @@ import java.util.Date;
 
 public class DateConverter {
 
-    private static final String FULL_DATE_FORMAT = "MMM DD, yyyy";
     private static final String DAY_TIME_FORMAT = "h:mm a";
     private static final String DAY_FORMAT = "MM dd, yyyy";
 
